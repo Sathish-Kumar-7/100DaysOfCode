@@ -139,6 +139,7 @@ fun oper(a:Int,b:Int,operation:(Int,Int)->Int):Int{
     return operation(a,b)
 }
 fun main(){
-    println(oper(1,2, operation = { a: Int, b: Int -> a + b }))
-    println(oper(3,5,Int::plus))
+//    println(oper(1,2, operation = { a: Int, b: Int -> a + b }))
+//    println(oper(3,5,Int::plus))
+
 }
