@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".MainActivity">
+<!--    <TextView-->
+<!--            android:id="@+id/diceNumberTextView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            tools:text="Roll To Get Dice Value"-->
+<!--            android:textSize="25sp"-->
+<!--            android:textColor="@color/black"-->
+<!--        />-->
+<!--    <Button-->
+<!--            android:id="@+id/rollButton"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="20sp"-->
+<!--            android:text="@string/roll"-->
+<!--            android:textAllCaps="true"-->
+<!--            android:textColor="@color/white"-->
+<!--    />-->
+
+    <ImageView
+            android:id="@+id/diceImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            tools:src="@drawable/dice_1"
+    />
+    <Button
+            android:id="@+id/rollButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/roll"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+    />
+
+</LinearLayout>

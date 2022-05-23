@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mainScreenPadding">16dp</dimen>
+    <dimen name="howsServiceTextSize">10sp</dimen>
+    <dimen name="radioOptionTextSize">15sp</dimen>
+    <dimen name="calculatedTipAmountTextSize">15sp</dimen>
+</resources>
