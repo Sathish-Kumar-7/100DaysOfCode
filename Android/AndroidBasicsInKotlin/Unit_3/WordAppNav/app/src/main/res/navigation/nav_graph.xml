@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph.xml"
+            app:startDestination="@id/letterFragment">
+
+    <fragment android:id="@+id/letterFragment" android:name="com.example.wordappnav.LetterFragment"
+              android:label="@string/app_name" tools:layout="@layout/fragment_letterk">
+        <action android:id="@+id/action_letterFragment_to_wordFragment" app:destination="@id/wordFragment"/>
+    </fragment>
+    <fragment android:id="@+id/wordFragment" android:name="com.example.wordappnav.WordFragment"
+              android:label="@string/word_list_fragment_label" tools:layout="@layout/fragment_word">
+        <argument android:name="letter" app:argType="string"/>
+    </fragment>
+</navigation>
