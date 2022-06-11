@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6db71dd8-7464-4b8f-ad93-6f8f10e0816d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Island.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaNotesForProfessionals.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ja_va/Goal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ja_va/dsa/linkedlist/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ja_va/dsa/linkedlist/SingleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ja_va/core/threading/Multi1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,38 +38,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/sathish/Desktop/100DaysOfCode/Java_Island/src",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/sathish/Desktop/100DaysOfCode/Java_Island/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ja_va.dsa.linkedlist.SingleLinkedList">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.Multi1">
+    <configuration name="Multi1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ja_va.core.threading.Multi1" />
       <module name="Java_Island" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ja_va.core.threading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java.dsa.linked_list.SingleLinkedList" />
+    <configuration name="Thread1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ja_va.core.threading.Thread1" />
       <module name="Java_Island" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java.dsa.linked_list.*" />
+          <option name="PATTERN" value="ja_va.core.threading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Thread2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ja_va.core.threading.Thread2" />
+      <module name="Java_Island" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ja_va.core.threading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ja_va.core.threading.ThreadState" />
+      <module name="Java_Island" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ja_va.core.threading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,9 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Multi1" />
+        <item itemvalue="Application.Thread2" />
+        <item itemvalue="Application.Thread1" />
+        <item itemvalue="Application.ThreadState" />
         <item itemvalue="Application.ja_va.dsa.linkedlist.SingleLinkedList" />
-        <item itemvalue="Application.java.dsa.linked_list.SingleLinkedList" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
